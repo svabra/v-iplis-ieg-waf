@@ -10,7 +10,7 @@ async def waf_middleware(request: Request, call_next):
         raise HTTPException(status_code=403, detail="Access denied due to classified label in response.")
     return response
 
-@app.get("/resource")
+@app.get("/RecognizedGroundPicture")
 async def get_resource():
     # This is an example. You'd normally get the resource data from your data source.
     # Adding a labels header for demonstration purposes.
