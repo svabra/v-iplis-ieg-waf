@@ -1,0 +1,16 @@
+uvicorn[standard]
+#hypercorn
+fastapi
+asyncio
+pyyaml
+python-dateutil
+websockets
+pytest
+pytest-mock
+pytest-asyncio
+tenacity
+pydantic[email]
+bcrypt
+python-jose
+python-multipart
+sse-starlette
