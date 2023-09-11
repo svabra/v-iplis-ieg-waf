@@ -1,17 +1,13 @@
 uvicorn[standard]
 #hypercorn
 fastapi
-# asyncio
+asyncio
 pyyaml
 python-dateutil
 websockets
 pytest
 pytest-mock
 pytest-asyncio
-#C:/Users/braya/apps/freyaalpha/fa-models
-fa-models
-aioredis[hiredis]
-redis-om
 tenacity
 pydantic[email]
 bcrypt
