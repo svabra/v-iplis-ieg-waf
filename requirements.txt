@@ -18,3 +18,4 @@ bcrypt
 python-jose
 python-multipart
 sse-starlette
+httpx
